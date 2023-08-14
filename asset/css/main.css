@@ -1,10 +1,221 @@
 * {
-    box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 html {
-    font-size: 10px;
+  font-size: 10px;
+  font-family: "DM Sans", sans-serif;
 }
 body {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  width: 170px;
+  height: 62px;
+  background: #5d3bee;
+  border: none;
+}
+.btn span {
+  text-align: center;
+  color: #fdfdfd;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+/* Header */
+.header {
+  background: #fbfaff;
+  padding-top: 20px;
+  padding-bottom: 44px;
+}
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__main--email {
+  display: flex;
+  align-items: center;
+}
+.header__main--list ul {
+  display: flex;
+}
+.header__main--img-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px rgb(93, 59, 238, 0.2) solid;
+}
+.header__main--img-email > img {
+  width: 24px;
+  height: 16px;
+}
+.header__main--block-email a {
+  width: 202px;
+  height: 33px;
+  color: #080415;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 136.364% */
+  text-decoration-line: underline;
+}
+.header__main--logo img {
+  width: 100px;
+  height: 100px;
+}
+.header__main--list li a {
+  color: #51586a;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.2s;
+}
+.header__main--list li:hover a {
+  color: #333;
+  text-decoration: underline;
+}
+.header__main--list li + li {
+  margin-left: 43px;
+}
+/* Hero */
+.hero {
+  background: #fbfaff;
+}
+.hero--extra img {
+    width: 90%;
+}
+.hero__main--img-block {
+  position: relative;
+  z-index: 1;
+  width: 514px;
+  height: 705px;
+}
+.hero__main--img-block .hero__main--img-main {
+  position: relative;
+  z-index: 1;
+  width: 514px;
+  height: 705px;
+}
+.hero__main--extra-img-default,
+.hero__main--extra-img-sm,
+.hero__main--extra-img-so-long,
+.hero__main--extra-img-long {
+  opacity: 0.1 !important;
+}
+.hero__main--extra-img-sm {
+  position: absolute;
+  top: 0;
+  left: 168.68px;
+}
+.extra-img-sm {
+  width: 114.5px;
+}
+
+.hero__main--extra-img-default {
+  position: absolute;
+  bottom: 254px;
+  left: -49.56px;
+}
+.extra-img-default {
+  width: 233.5px;
+}
+.hero__main--extra-img-so-long {
+  position: absolute;
+  top: 14px;
+  left: -85px;
+}
+.extra-img-so-long {
+  width: 571px;
+}
+.hero__main--extra-img-long {
+  position: absolute;
+  top: 234px;
+  right: 3px;
+}
+.extra-img-long {
+  width: 285.5px;
+}
+.header__main--info {
+    position: relative;
+  margin-top: 137px;
+}
+.header__main--title {
+  width: 500px;
+  height: 164px;
+  margin-bottom: 20px;
+  color: #080415;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 76px; /* 95% */
+  letter-spacing: -3.2px;
+}
+.header__main-decs {
+  width: 370px;
+  margin-bottom: 50px;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.header__main--action {
+  display: flex;
+  align-items: center;
+}
+.header__main--action a {
+  display: inline-block;
+  margin-left: 30px;
+  color: #080415;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+  text-decoration-line: underline;
+}
+.header__main-btn {
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+.header__main-btn:hover {
+  opacity: 0.8;
+}
+.header__main--media {
+  display: flex;
+  align-items: center;
+  width: 277px;
+  justify-content: space-between;
+  margin-top: 109px;
+}
+.header__main--media span {
+  color: #51586a;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+}
+.header__main--media-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.header__main--media-block:hover {
+  opacity: 0.5;
 }
