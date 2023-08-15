@@ -3,14 +3,26 @@
 
 
 /* Pc */
-@media screen  and (min-width: 768px) {
+@media screen  and (min-width: 992px) {
+    
+}
+/* Mobile Tablet */
+@media screen and (max-width:991.98px) {
     
 }
 /* Tablet  */
-@media screen and (max-width:767.98px) and (min-width:568px){
+@media screen and (max-width:991.98px) and (min-width:768px){
     
 }
 /* Mobile */ 
-@media screen and  (max-width:567.98px){
-    
+@media screen and  (max-width:767.98px){
+    .header__main--logo {
+        order: 1;
+    }
+    .header__main--email {
+        order: 2;
+    }
+    .header__main--list {
+        order: 3;
+    }
 }
