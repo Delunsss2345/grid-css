@@ -904,7 +904,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1009px;
+  width: 86%;
   height: 141px;
   border-bottom: solid 2px;
   border-color: #ccc;
@@ -1010,4 +1010,314 @@ a {
   ~ .main__question--item
   .main__question--item-active {
   border-color: #5d3bee;
+}
+/*  atmosphere*/
+.atmosphere {
+  padding-bottom: 140px;
+}
+.main__atmosphere--info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+.main__atmosphere--title {
+  margin: 0 auto 20px auto;
+  color: #080415;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px; /* 117.857% */
+  letter-spacing: -2.24px;
+}
+.main__atmosphere--decs {
+  width: 528px;
+  margin: 0 auto 30px auto;
+  color: #51586a;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.main__atmosphere--link {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  color: #5d3bee;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 125% */
+  letter-spacing: -1.28px;
+  text-decoration-line: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
+}
+.main__atmosphere--link::before {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  content: attr(data);
+  z-index: 2;
+  width: 0;
+  right: 0;
+  overflow: hidden;
+  color: #ccc;
+  text-decoration-line: underline;
+  text-decoration-color: #ccc;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
+  transition: width 0.5s;
+}
+.main__atmosphere--link:hover::before {
+  width: 100%;
+  left: 0;
+  justify-content: flex-start;
+}
+.main__atmosphere--link:hover {
+  text-decoration-line: none;
+}
+.main__atmosphere-item {
+  cursor: pointer;
+  transition: transform 0.4s, box-shadow 0.5s;
+}
+.main__atmosphere-item:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main__atmosphere-item img {
+  width: 370px;
+  height: 529px;
+  object-fit: cover;
+}
+/* cta */
+.main__cta {
+  padding-top: 70px;
+  position: relative;
+  height: 488px;
+  background: #fbfaff;
+}
+.main__cta--extra-cta-1,
+.main__cta--extra-cta-2,
+.main__cta--extra-cta-3,
+.main__cta--extra-cta-4,
+.main__cta--extra-cta-5,
+.main__cta--extra-cta-6,
+.main__cta--extra-cta-7,
+.main__cta--extra-cta-8,
+.main__cta--extra-cta-9,
+.main__cta--extra-cta-10,
+.main__cta--extra-cta-11 {
+  position: absolute;
+  z-index: 0;
+}
+.main__cta--extra-cta-1 img,
+.main__cta--extra-cta-2 img,
+.main__cta--extra-cta-3 img,
+.main__cta--extra-cta-4 img,
+.main__cta--extra-cta-5 img,
+.main__cta--extra-cta-6 img,
+.main__cta--extra-cta-7 img,
+.main__cta--extra-cta-8 img,
+.main__cta--extra-cta-9 img,
+.main__cta--extra-cta-10 img,
+.main__cta--extra-cta-11 img {
+  opacity: 0.1;
+}
+.main__cta--extra-cta-1 {
+  bottom: 129.11px;
+  left: 52.29px;
+}
+.main__cta--extra-cta-2 {
+  bottom: 2.04px;
+  left: -0.95px;
+}
+
+.main__cta--extra-cta-3 {
+  bottom: 0;
+  left: 0;
+}
+.main__cta--extra-cta-4 {
+  bottom: 0;
+  left: 76px;
+}
+.main__cta--extra-cta-5 {
+  top: 30px;
+  right: 532px;
+}
+.main__cta--extra-cta-6 {
+  top: 0;
+  left: 630px;
+}
+.main__cta--extra-cta-7 {
+  top: 0;
+  left: 277px;
+}
+.main__cta--extra-cta-8 {
+  top: 113px;
+  left: 635px;
+}
+.main__cta--extra-cta-9 {
+  top: 0;
+  right: 50px;
+}
+.main__cta--extra-cta-10 {
+  top: 0;
+  right: 0;
+}
+.main__cta--info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__cta--extra-cta-11 {
+  top: 38px;
+  right: 0;
+}
+.main__cta--img-block > img {
+  position: relative;
+  z-index: 1;
+  width: 90px;
+  height: 90px;
+}
+.main__cta--title {
+  margin-bottom: 20px;
+  color: #080415;
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px; /* 117.857% */
+  letter-spacing: -2.24px;
+}
+.main__cta--desc {
+  width: 570px;
+  text-align: center;
+  color: #51586a;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.main__cta--btn {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.main__cta--btn span {
+  position: relative;
+  z-index: 3;
+}
+.main__cta--btn::before {
+  position: absolute;
+  content: "";
+  z-index: 2;
+  width: 0;
+  height: 62px;
+  top: 0;
+  right: 0;
+  transition: width 0.5s;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+.main__cta--btn:hover::before {
+  width: 170px;
+  left: 0;
+}
+/* Footer */
+.footer {
+  padding-top: 50px;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+  border-bottom: 2px solid #ccc;
+}
+.footer__main--email {
+  display: flex;
+  align-items: center;
+}
+.footer__main--list ul {
+  display: flex;
+}
+.footer__main--img-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 1px rgb(93, 59, 238, 0.2) solid;
+}
+.footer__main--img-email > img {
+  width: 24px;
+  height: 16px;
+}
+.footer__main--block-email a {
+  width: 202px;
+  height: 33px;
+  color: #080415;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 136.364% */
+  text-decoration-line: underline;
+}
+.footer__main--logo img {
+  width: 100px;
+  height: 100px;
+}
+.footer__main--list li a {
+  color: #51586a;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.2s;
+}
+.footer__main--list li:hover a {
+  color: #333;
+  text-decoration: underline;
+}
+.footer__main--list li + li {
+  margin-left: 43px;
+}
+/* Copy Right */
+.copy-right {
+  margin-top: 18px;
+}
+.main__copy-right {
+  display: flex;
+  justify-content: space-between;
+}
+.main__copy-right-support {
+  display: flex;
+}
+.main__copy-right-support-decs {
+  margin-right: 36px;
+}
+.main__copy-right-support {
+  position: relative;
+}
+.main__copy-right-support-decs-2::before {
+  position: absolute;
+  content: "";
+  top: 2px;
+  left: 120px;
+  height: 14px;
+  width: 2px;
+  background-color: #ccc;
+  margin-right: 50px;
+}
+
+.main__copy-right-support-decs,
+.main__copy-right-support-decs-2,
+.main__copy-right--decs {
+  color: #ccc;
 }
