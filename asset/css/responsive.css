@@ -562,4 +562,10 @@
   .footer__main--email {
     order: 3;
   }
+  .interactive {
+    padding-bottom: 210px;
+  }
+  .feedback {
+    padding-top: 200px;
+  }
 }
