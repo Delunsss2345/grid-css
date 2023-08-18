@@ -23,70 +23,99 @@
   </head>
   <body>
     <div class="master"">
-      <!-- Header -->
-      <header class="header">
-        <div class="container">
-          <!-- Animation Header  -->
-          <!-- Header PC -->
-          <section
-            data-aos="fade-down"
-            data-aos-duration="1150"
-            class="header__main"
-          >
-            <!-- Header email -->
-            <div class="header__main--email">
-              <!-- Img Email -->
-              <figure class="header__main--img-email">
-                <img src="./asset/img/header-email.png" alt="email-heart" />
-              </figure>
-              <div class="header__main--block-email">
-                <a href="#!" class="header__main--link-email"
-                  >hi@arif.interactive</a
-                >
-              </div>
-            </div>
-            <!-- Logo -->
-            <figure class="header__main--logo">
-              <img src="./asset/img/logo-boy.png" alt="Logo Website" />
+    <!-- Mobile Header -->
+    <input
+      class="header__main--input"
+      type="checkbox"
+      name=""
+      id="header__main--input-active"
+    />
+    <div class="header__main--mobile-header">
+      <figure class="header__main--mobile-logo">
+        <img src="./asset/img/logo-boy.png" alt="" />
+      </figure>
+      <!-- Nav -->
+      <ul class="header__main--mobile-list">
+        <li><a href="#!">Projects</a></li>
+        <li><a href="#!">Journey</a></li>
+        <li><a href="#!">Service</a></li>
+        <li><a href="#!">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <!-- Animation Header  -->
+        <!-- Header PC -->
+        <section
+          data-aos="fade-down"
+          data-aos-duration="1150"
+          class="header__main"
+        >
+          <!-- Header email -->
+          <div class="header__main--email">
+            <!-- Img Email -->
+            <figure class="header__main--img-email">
+              <img src="./asset/img/header-email.png" alt="email-heart" />
             </figure>
-            <!-- Navigation -->
-            <nav class="header__main--list">
-              <ul>
-                <li>
-                  <a href="#!">Projects</a>
-                </li>
-                <li>
-                  <a href="#!">Journey</a>
-                </li>
-                <li>
-                  <a href="#!">Service</a>
-                </li>
-                <li>
-                  <a href="#!">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-        </div>
-      </header>
-      <!-- Hero PC -->
-      <section class="hero">
-        <div class="container">
-          <section class="hero__main">
-            <div class="row row-cols-lg-2">
-              <!-- Hero Left -->
-              <div class="col-lg-5">
-                <figure
-                  data-aos="fade-right"
-                  data-aos-duration="1350"
-                  class="hero__main--img-block"
-                >
-                  <img
-                    class="hero__main--img-main"
-                    src="./asset/img/hand-some-boi.png"
-                    alt="hand-some-boy"
-                  />
-                  <!-- Extra Img  -->
+            <div class="header__main--block-email">
+              <a href="#!" class="header__main--link-email"
+                >hi@arif.interactive</a
+              >
+            </div>
+          </div>
+          <!-- Logo -->
+          <figure class="header__main--logo">
+            <img src="./asset/img/logo-boy.png" alt="Logo Website" />
+          </figure>
+          <!-- Navigation -->
+          <nav class="header__main--list">
+            <ul>
+              <li>
+                <a href="#!">Projects</a>
+              </li>
+              <li>
+                <a href="#!">Journey</a>
+              </li>
+              <li>
+                <a href="#!">Service</a>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- button choice navigation -->
+
+          <label
+            for="header__main--input-active"
+            class="header__main--choice-nav"
+          >
+            <div class="header__main--btn-choice"></div>
+          </label>
+        </section>
+      </div>
+    </header>
+
+    <!-- Hero PC -->
+    <section class="hero">
+      <div class="container">
+        <section class="hero__main">
+          <div class="row row-cols-lg-2 row-cols-sm-1">
+            <!-- Hero Left -->
+            <div class="col-lg-5 col-sm-12 hero__main--hero-left">
+              <figure
+                data-aos="fade-right"
+                data-aos-duration="1350"
+                class="hero__main--img-block pc"
+              >
+                <img
+                  class="hero__main--img-main"
+                  src="./asset/img/hand-some-boi.png"
+                  alt="hand-some-boy"
+                />
+                <!-- Extra Img Pc -->
+                <div class="hero__main--extra-img">
                   <figure
                     data-aos="fade-up-right"
                     data-aos-duration="1350"
@@ -131,1205 +160,1212 @@
                       alt="extra-hansom-boy"
                     />
                   </figure>
-                </figure>
-              </div>
-              <!-- Hero Right -->
-              <div class="col-lg-5 offset-lg-2">
-                <section
-                  data-aos="fade-left"
-                  data-aos-duration="1150"
-                  class="header__main--info"
-                >
-                  <h1 class="header__main--title">An Interactive Designer</h1>
-                  <p class="header__main-decs">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna, non nisl tincidunt ut elementum turpis.
-                  </p>
-                  <!-- Action -->
-                  <div class="header__main--action">
-                    <button class="header__main-btn btn">
-                      <span>Book a Call</span>
-                    </button>
-                    <a href="#!">My Works</a>
-                  </div>
-                  <!-- Media -->
-                  <div class="header__main--media">
-                    <span>Follow me on:</span>
-                    <figure class="header__main--media-block">
-                      <img src="./asset/img/bex-media.svg" alt="bex-media" />
-                    </figure>
-                    <figure class="header__main--media-block">
-                      <img src="./asset/img/instagram.svg" alt="instagram" />
-                    </figure>
-                    <figure class="header__main--media-block">
-                      <img
-                        src="./asset/img/basketball-media.svg"
-                        alt="basketball-media"
-                      />
-                    </figure>
-                  </div>
-                </section>
-              </div>
+                </div>
+              </figure>
             </div>
-          </section>
-        </div>
-      </section>
-      <main>
-        <!-- Clients PC -->
-        <section class="clients">
-          <div class="container">
-            <section class="main__clients">
-              <!-- Title Clients -->
-              <h2
-                data-aos="fade-right"
-                data-aos-duration="1150"
-                class="main__clients--title"
-              >
-                Meet my recent clients
-              </h2>
-              <!-- Media Clients -->
-              <div
+            <!-- Hero Right -->
+            <div class="col-lg-5 offset-lg-2 col-sm- hero__main--hero-right">
+              <section
                 data-aos="fade-left"
                 data-aos-duration="1150"
-                class="main__clients--media-block"
+                class="header__main--info"
               >
-                <!-- Media Top -->
-                <div class="main__clients--media-top">
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo google">
-                      <!-- Google -->
-                      <img src="./asset/img/google.png" alt="google" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Google.svg" alt="google" />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo warner-bros">
-                      <!--Warner Bos -->
-                      <img src="./asset/img/warbos.png" alt="Warner Bos" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Warner-Bros.svg" alt="Warner Bos" />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!-- Mailchimp -->
-                      <img src="./asset/img/mailchimp.png" alt="mailchimp" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Mailchimp.svg" alt="" />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!-- Adobe -->
-                      <img src="./asset/img/adobe.png" alt="Adobe" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Adobe.svg" alt="" />
-                    </figure>
-                  </article>
-                </div>
-                <!-- Media Bottom -->
-                <div class="main__clients--media-bottom">
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!-- Upwork -->
-                      <img src="./asset/img/Upwork.png" alt="Upwork" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Upwork.svg" alt="Upwork" />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!--Creative Cloud -->
-                      <img
-                        src="./asset/img/creative-cloud.png"
-                        alt="Creative Cloud"
-                      />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img
-                        src="./asset/img/Creative-Cloud.svg"
-                        alt="Creative Cloud"
-                      />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!-- Mailchimp -->
-                      <img src="./asset/img/Woo.png" alt="Woocommerce" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img
-                        src="./asset/img/Woocommerce.svg"
-                        alt="Woocommerce"
-                      />
-                    </figure>
-                  </article>
-                  <article class="main__clients--media">
-                    <figure class="main__clients--media-logo">
-                      <!-- Adobe -->
-                      <img src="./asset/img/Canva.png" alt="Canva" />
-                    </figure>
-                    <figure class="main__clients--name-media">
-                      <img src="./asset/img/Canva.svg" alt="Canva" />
-                    </figure>
-                  </article>
-                </div>
-              </div>
-            </section>
-          </div>
-        </section>
-        <!-- Special PC -->
-        <section class="special">
-          <div class="container">
-            <section class="main__special">
-              <!-- Special Info -->
-              <section
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__special--info"
-              >
-                <h2 class="main__special--title">Specialities</h2>
-                <p class="main__special--decs">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  urna, non nisl tincidunt ut elementum turpis.
-                </p>
-              </section>
-              <!-- Special List -->
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="row row-cols-lg-3"
-              >
-                <div class="col">
-                  <article class="main__special--item">
-                    <!-- Special Img Item -->
-                    <figure class="main__special--item-img">
-                      <img src="./asset/img/cretive.png" alt="Product design" />
-                    </figure>
-                    <h3 class="main__special--item-title">Product design</h3>
-                    <p class="main__special--item-decs">
-                      Lorem ipsum dolor sit amet, solor adipiscing elit. Non
-                      nisl solor ut elementum turpis.
-                    </p>
-                  </article>
-                </div>
-                <div class="col">
-                  <article class="main__special--item">
-                    <!-- Special Img Item -->
-                    <figure class="main__special--item-img pencil">
-                      <img src="./asset/img/pencil.png" alt="UI/UX Design" />
-                      <!-- Ruller -->
-                      <figure class="main__special--extra-img">
-                        <img src="./asset/img/ruller.png" alt="UI/UX Design" />
-                      </figure>
-                    </figure>
-                    <h3 class="main__special--item-title">UI/UX Design</h3>
-                    <p class="main__special--item-decs">
-                      Lorem ipsum dolor sit amet, solor adipiscing elit. Non
-                      nisl solor ut elementum turpis.
-                    </p>
-                  </article>
-                </div>
-                <div class="col">
-                  <article class="main__special--item">
-                    <!-- Special Img Item -->
-                    <figure class="main__special--item-img">
-                      <img
-                        src="./asset/img/phone.png"
-                        alt="Interactive design"
-                      />
-                    </figure>
-                    <h3 class="main__special--item-title">
-                      Interactive design
-                    </h3>
-                    <p class="main__special--item-decs">
-                      Lorem ipsum dolor sit amet, solor adipiscing elit. Non
-                      nisl solor ut elementum turpis.
-                    </p>
-                  </article>
-                </div>
-              </div>
-            </section>
-          </div>
-        </section>
-        <!-- Project -->
-        <section class="project">
-          <div class="container">
-            <section class="main__project">
-              <!-- Project Title -->
-              <div class="row">
-                <div class="col-lg-5">
-                  <h2
-                    data-aos="fade-right"
-                    data-aos-duration="1150"
-                    class="main__project--title"
-                  >
-                    Take a look at my recent projects
-                  </h2>
-                </div>
-                <div class="col-lg-4 offset-lg-1">
-                  <p
-                    data-aos="fade-left"
-                    data-aos-duration="1150"
-                    class="main__project--decs"
-                  >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                    urna, non nisl tincidunt ut elementum turpis.
-                  </p>
-                </div>
-              </div>
-              <!-- Project List Item -->
-              <section
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="main__project--list-item"
-              >
-                <div class="row row-cols-lg-2">
-                  <div class="col">
-                    <article class="main__project--item">
-                      <section class="main__project-item-cover">
-                        <!-- Info Item -->
-                        <section class="main__project--item-info">
-                          <h3 class="main__project--item-title">
-                            Wally Website
-                          </h3>
-                          <p class="main__project--item-decs">
-                            Lorem ipsum dolor amet, consectetur adipiscing st
-                            elit.
-                          </p>
-                          <a href="#!" class="main__project--item-link"
-                            >Case Study</a
-                          >
-                        </section>
-                        <!--  Item Img-->
-                        <figure class="main__project--item-img-block">
-                          <img
-                            src="./asset/img/project-item-1.png"
-                            alt="project-item-1"
-                            class="main__project--item-img"
-                          />
-                          <!-- Extra Img -->
-                          <figure class="main__project--extra-img-1">
-                            <img
-                              src="./asset/img/extra-project-1.png"
-                              alt="extra-project-1"
-                              class="main__project--extra-1"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-2">
-                            <img
-                              src="./asset/img/extra-project-2.png"
-                              alt="extra-project-2"
-                              class="main__project--extra-2"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-3">
-                            <img
-                              src="./asset/img/extra-project-3.png"
-                              alt="extra-project-3"
-                              class="main__project--extra-3"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-4">
-                            <img
-                              src="./asset/img/extra-project-4.png"
-                              alt="extra-project-4"
-                              class="main__project--extra-4"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-5">
-                            <img
-                              src="./asset/img/extra-project-5.png"
-                              alt="extra-project-5"
-                              class="main__project--extra-5"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-6">
-                            <img
-                              src="./asset/img/extra-project-6.png"
-                              alt="extra-project-6"
-                              class="main__project--extra-6"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-7">
-                            <img
-                              src="./asset/img/extra-project-7.png"
-                              alt="extra-project-7"
-                              class="main__project--extra-7"
-                            />
-                          </figure>
-                        </figure>
-                      </section>
-                    </article>
-                  </div>
-                  <div class="col">
-                    <article class="main__project--item">
-                      <section class="main__project-item-cover">
-                        <!-- Info Item -->
-                        <section class="main__project--item-info">
-                          <h3 class="main__project--item-title">Banking App</h3>
-                          <p class="main__project--item-decs">
-                            Lorem ipsum dolor amet, consectetur adipiscing st
-                            elit.
-                          </p>
-                          <a href="#!" class="main__project--item-link"
-                            >Case Study</a
-                          >
-                        </section>
-                        <!--  Item Img-->
-                        <figure class="main__project--item-img-block">
-                          <img
-                            src="./asset/img/project-item-4.png"
-                            alt="project-item-1"
-                            class="main__project--item-img"
-                          />
-                          <!-- Extra Img -->
-                          <figure class="main__project--extra-img-1">
-                            <img
-                              src="./asset/img/extra-project-1.png"
-                              alt="extra-project-1"
-                              class="main__project--extra-1"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-2">
-                            <img
-                              src="./asset/img/extra-project-2.png"
-                              alt="extra-project-2"
-                              class="main__project--extra-2"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-3">
-                            <img
-                              src="./asset/img/extra-project-3.png"
-                              alt="extra-project-3"
-                              class="main__project--extra-3"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-4">
-                            <img
-                              src="./asset/img/extra-project-4.png"
-                              alt="extra-project-4"
-                              class="main__project--extra-4"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-5">
-                            <img
-                              src="./asset/img/extra-project-5.png"
-                              alt="extra-project-5"
-                              class="main__project--extra-5"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-6">
-                            <img
-                              src="./asset/img/extra-project-6.png"
-                              alt="extra-project-6"
-                              class="main__project--extra-6"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-7">
-                            <img
-                              src="./asset/img/extra-project-7.png"
-                              alt="extra-project-7"
-                              class="main__project--extra-7"
-                            />
-                          </figure>
-                        </figure>
-                      </section>
-                    </article>
-                  </div>
-                  <div class="col">
-                    <article class="main__project--item">
-                      <section class="main__project-item-cover">
-                        <!-- Info Item -->
-                        <section class="main__project--item-info">
-                          <h3 class="main__project--item-title">Web App</h3>
-                          <p class="main__project--item-decs">
-                            Lorem ipsum dolor amet, consectetur adipiscing st
-                            elit.
-                          </p>
-                          <a href="#!" class="main__project--item-link"
-                            >Case Study</a
-                          >
-                        </section>
-                        <!--  Item Img-->
-                        <figure class="main__project--item-img-block">
-                          <img
-                            src="./asset/img/project-item-3.png"
-                            alt="project-item-1"
-                            class="main__project--item-img"
-                          />
-                          <!-- Extra Img -->
-                          <figure class="main__project--extra-img-1">
-                            <img
-                              src="./asset/img/extra-project-1.png"
-                              alt="extra-project-1"
-                              class="main__project--extra-1"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-2">
-                            <img
-                              src="./asset/img/extra-project-2.png"
-                              alt="extra-project-2"
-                              class="main__project--extra-2"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-3">
-                            <img
-                              src="./asset/img/extra-project-3.png"
-                              alt="extra-project-3"
-                              class="main__project--extra-3"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-4">
-                            <img
-                              src="./asset/img/extra-project-4.png"
-                              alt="extra-project-4"
-                              class="main__project--extra-4"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-5">
-                            <img
-                              src="./asset/img/extra-project-5.png"
-                              alt="extra-project-5"
-                              class="main__project--extra-5"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-6">
-                            <img
-                              src="./asset/img/extra-project-6.png"
-                              alt="extra-project-6"
-                              class="main__project--extra-6"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-7">
-                            <img
-                              src="./asset/img/extra-project-7.png"
-                              alt="extra-project-7"
-                              class="main__project--extra-7"
-                            />
-                          </figure>
-                        </figure>
-                      </section>
-                    </article>
-                  </div>
-                  <div class="col">
-                    <article class="main__project--item">
-                      <section class="main__project-item-cover">
-                        <!-- Info Item -->
-                        <section class="main__project--item-info">
-                          <h3 class="main__project--item-title">
-                            Oculus Website
-                          </h3>
-                          <p class="main__project--item-decs">
-                            Lorem ipsum dolor amet, consectetur adipiscing st
-                            elit.
-                          </p>
-                          <a href="#!" class="main__project--item-link"
-                            >Case Study</a
-                          >
-                        </section>
-                        <!--  Item Img-->
-                        <figure class="main__project--item-img-block">
-                          <img
-                            src="./asset/img/project-item-2.png"
-                            alt="project-item-1"
-                            class="main__project--item-img"
-                          />
-                          <!-- Extra Img -->
-                          <figure class="main__project--extra-img-1">
-                            <img
-                              src="./asset/img/extra-project-1.png"
-                              alt="extra-project-1"
-                              class="main__project--extra-1"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-2">
-                            <img
-                              src="./asset/img/extra-project-2.png"
-                              alt="extra-project-2"
-                              class="main__project--extra-2"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-3">
-                            <img
-                              src="./asset/img/extra-project-3.png"
-                              alt="extra-project-3"
-                              class="main__project--extra-3"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-4">
-                            <img
-                              src="./asset/img/extra-project-4.png"
-                              alt="extra-project-4"
-                              class="main__project--extra-4"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-5">
-                            <img
-                              src="./asset/img/extra-project-5.png"
-                              alt="extra-project-5"
-                              class="main__project--extra-5"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-6">
-                            <img
-                              src="./asset/img/extra-project-6.png"
-                              alt="extra-project-6"
-                              class="main__project--extra-6"
-                            />
-                          </figure>
-                          <figure class="main__project--extra-img-7">
-                            <img
-                              src="./asset/img/extra-project-7.png"
-                              alt="extra-project-7"
-                              class="main__project--extra-7"
-                            />
-                          </figure>
-                        </figure>
-                      </section>
-                    </article>
-                  </div>
-                </div>
-              </section>
-              <!-- Project Action -->
-              <button
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="main__project--action btn"
-              >
-                <span>All Projects</span>
-              </button>
-            </section>
-          </div>
-        </section>
-        <!-- Interactive -->
-        <section class="interactive">
-          <div class="container">
-            <section class="main__interactive">
-              <!-- Interactive Info -->
-              <div
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__interactive--info"
-              >
-                <article class="main__interactive--span-block">
-                  <span class="main__interactive--span">Hey,,,,It’s Arif</span>
-                  <figure class="main__interactive--img">
-                    <img src="./asset/img/icon-hello.png" alt="icon-hello" />
-                  </figure>
-                </article>
-                <h2 class="main__interactive--title">Interactive Designer</h2>
-                <p class="main__interactive--desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  urna, non nisl tincidunt ut elementum turpis.
-                </p>
-              </div>
-              <!-- Interactive Rating -->
-              <section
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="main__interactive--rating"
-              >
-                <article class="main__interactive--rating-item">
-                  <p class="main__interactive--rating-desc">08+</p>
-                  <span class="main__interactive--rating-span"
-                    >Years Experience</span
-                  >
-                </article>
-                <article class="main__interactive--rating-item">
-                  <p class="main__interactive--rating-desc">21+</p>
-                  <span class="main__interactive--rating-span"
-                    >Features & Awards</span
-                  >
-                </article>
-                <article class="main__interactive--rating-item">
-                  <p class="main__interactive--rating-desc">97%</p>
-                  <span class="main__interactive--rating-span"
-                    >Clients Rating</span
-                  >
-                </article>
-                <!-- Interactive Img -->
-                <section class="main__interactive--rating-background-img">
-                  <figure class="main__interactive-rating-img">
-                    <img
-                      class="main__interactive--rating-img-main"
-                      src="./asset/img/video-interactive.png"
-                      alt="video-interactive"
-                    />
-                    <!-- Extra img rating -->
-                    <figure class="main__interactive--rating-extra">
-                      <img
-                        class="main__interactive--rating-img-extra"
-                        src="./asset/img/btn-video-interactive.png"
-                        alt="btn-video-interactive"
-                      />
-                    </figure>
-                    <!-- Extra block -->
-                    <div class="main__interactive--extra-block">
-                      <span>Intro Video</span>
-                    </div>
-                  </figure>
-                </section>
-              </section>
-
-              <!-- Interactive People Say -->
-              <section class="main__interactive--feedback"></section>
-            </section>
-          </div>
-        </section>
-        <!-- Feedback -->
-        <section class="feedback">
-          <div class="container">
-            <section class="main__feedback">
-              <h2
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__feedback--title"
-              >
-                What people says
-              </h2>
-              <p
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__feedback--desc"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                urna, non nisl tincidunt ut elementum turpis.
-              </p>
-              <!-- Feedback People List -->
-              <article
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__feedback--people-group"
-              >
-                <p class="main__feedback--people">
-                  “Duis aute irure dolor in reprehenderit in voluptate velit
-                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa.”
-                </p>
-                <!-- Name And Avatar -->
-                <div class="main__feedback--user">
-                  <figure class="main__feedback--avatar">
-                    <img src="./asset/img/faq.png" alt="Avatar User" />
-                  </figure>
-                  <span class="main__feedback--people-name">Joe Elia</span>
-                </div>
-                <!-- Work People -->
-                <span class="main__feedback--work-people">
-                  User Interface Design at PCL Lab
-                </span>
-              </article>
-              <!-- Feedback Choice -->
-              <div
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="main__feedback--choice"
-              >
-                <span class="main__feedback--dot"></span>
-                <span class="main__feedback--dot"></span>
-                <span class="main__feedback--dot feedback__hight-light"></span>
-                <span class="main__feedback--dot"></span>
-                <span class="main__feedback--dot"></span>
-              </div>
-              <!-- Extra Feedback -->
-              <div
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="feedback--extra"
-              >
-                <figure class="feedback--extra-1">
-                  <img
-                    src="./asset/img/extra-feedback1.png"
-                    alt="extra-feedback1"
-                  />
-                </figure>
-                <figure class="feedback--extra-2">
-                  <img
-                    src="./asset/img/extra-feedback2.png"
-                    alt="extra-feedback2"
-                  />
-                </figure>
-                <figure class="feedback--extra-3">
-                  <img
-                    src="./asset/img/extra-feedback3.png"
-                    alt="extra-feedback3"
-                  />
-                </figure>
-                <figure class="feedback--extra-4">
-                  <img
-                    src="./asset/img/extra-feedback4.png"
-                    alt="extra-feedback4"
-                  />
-                </figure>
-              </div>
-              <!-- Extra feedback-2 -->
-              <div
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="feedback--extra-two"
-              >
-                <figure class="feedback--extra-2-1">
-                  <img
-                    src="./asset/img/extra-feedback1.png"
-                    alt="extra-feedback1"
-                  />
-                </figure>
-                <figure class="feedback--extra-2-3">
-                  <img
-                    src="./asset/img/extra-feedback3.png"
-                    alt="extra-feedback3"
-                  />
-                </figure>
-                <figure class="feedback--extra-2-4">
-                  <img
-                    src="./asset/img/extra-right.png"
-                    alt="extra-feedback4"
-                  />
-                </figure>
-              </div>
-            </section>
-          </div>
-        </section>
-        <!-- Question -->
-        <section class="question">
-          <div class="container">
-            <section
-              data-aos="fade-right"
-              data-aos-duration="1150"
-              class="main__question"
-            >
-              <h2 class="main__question--title">
-                A few questions <br />
-                clients normally ask me
-              </h2>
-              <!-- Question List -->
-              <section class="main__question--list">
-                <!-- Input Group -->
-                <section class="main__question--input-gr">
-                  <input
-                    class="main__question--input-checked"
-                    type="checkbox"
-                    name="check"
-                    id="active"
-                  />
-                  <section class="main__question--item">
-                    <!-- Item Info -->
-
-                    <section class="main__question--item-info">
-                      <!-- Question Title Item -->
-                      <h3 class="main__question--item-title">
-                        What is your hourly rate?
-                      </h3>
-
-                      <!-- Question Desc -->
-                      <p class="main__question--item-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In urna, non nisl tincidunt ut elementum turpis.
-                      </p>
-                    </section>
-                    <!-- Item Active -->
-
-                    <label for="active" class="main__question--item-active">
-                      <span class="main__question--active-child-plus">+</span>
-                      <span class="main__question--active-child-minus">-</span>
-                    </label>
-                  </section>
-                </section>
-                <section class="main__question--input-gr">
-                  <input
-                    class="main__question--input-checked"
-                    type="checkbox"
-                    name="rate"
-                    id="active-2"
-                  />
-                  <section class="main__question--item">
-                    <!-- Item Info -->
-
-                    <section class="main__question--item-info">
-                      <!-- Question Title Item -->
-                      <h3 class="main__question--item-title">
-                        What type of projects do you take on?
-                      </h3>
-
-                      <!-- Question Desc -->
-                      <p class="main__question--item-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In urna, non nisl tincidunt ut elementum turpis.
-                      </p>
-                    </section>
-                    <!-- Item Active -->
-
-                    <label for="active-2" class="main__question--item-active">
-                      <span class="main__question--active-child-plus">+</span>
-                      <span class="main__question--active-child-minus">-</span>
-                    </label>
-                  </section>
-                </section>
-                <section class="main__question--input-gr">
-                  <input
-                    class="main__question--input-checked"
-                    type="checkbox"
-                    name="rate"
-                    id="active-3"
-                  />
-                  <section class="main__question--item">
-                    <!-- Item Info -->
-
-                    <section class="main__question--item-info">
-                      <!-- Question Title Item -->
-                      <h3 class="main__question--item-title">
-                        How do you charge for projects ?
-                      </h3>
-
-                      <!-- Question Desc -->
-                      <p class="main__question--item-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In urna, non nisl tincidunt ut elementum turpis.
-                      </p>
-                    </section>
-                    <!-- Item Active -->
-
-                    <label for="active-3" class="main__question--item-active">
-                      <span class="main__question--active-child-plus">+</span>
-                      <span class="main__question--active-child-minus">-</span>
-                    </label>
-                  </section>
-                </section>
-                <section class="main__question--input-gr">
-                  <input
-                    class="main__question--input-checked"
-                    type="checkbox"
-                    name="rate"
-                    id="active-4"
-                  />
-                  <section class="main__question--item">
-                    <!-- Item Info -->
-
-                    <section class="main__question--item-info">
-                      <!-- Question Title Item -->
-                      <h3 class="main__question--item-title">
-                        What time-zone do you work in?
-                      </h3>
-
-                      <!-- Question Desc -->
-                      <p class="main__question--item-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In urna, non nisl tincidunt ut elementum turpis.
-                      </p>
-                    </section>
-                    <!-- Item Active -->
-
-                    <label for="active-4" class="main__question--item-active">
-                      <span class="main__question--active-child-plus">+</span>
-                      <span class="main__question--active-child-minus">-</span>
-                    </label>
-                  </section>
-                </section>
-                <section class="main__question--input-gr">
-                  <input
-                    class="main__question--input-checked"
-                    type="checkbox"
-                    name="rate"
-                    id="active-5"
-                  />
-                  <section class="main__question--item">
-                    <!-- Item Info -->
-
-                    <section class="main__question--item-info">
-                      <!-- Question Title Item -->
-                      <h3 class="main__question--item-title">
-                        How often can we communicate?
-                      </h3>
-
-                      <!-- Question Desc -->
-                      <p class="main__question--item-desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In urna, non nisl tincidunt ut elementum turpis.
-                      </p>
-                    </section>
-                    <!-- Item Active -->
-
-                    <label for="active-5" class="main__question--item-active">
-                      <span class="main__question--active-child-plus">+</span>
-                      <span class="main__question--active-child-minus">-</span>
-                    </label>
-                  </section>
-                </section>
-              </section>
-            </section>
-          </div>
-        </section>
-        <!--Atmosphere   -->
-        <section class="atmosphere">
-          <div class="container">
-            <section class="main__atmosphere">
-              <!-- Info  -->
-              <section
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__atmosphere--info"
-              >
-                <h2 class="main__atmosphere--title">My atmosphere</h2>
-                <p class="main__atmosphere--decs">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  urna, non nisl tincidunt ut elementum turpis.
-                </p>
-                <a
-                  data="@huydarealest_05"
-                  href="https://www.instagram.com/huydarealest/"
-                  class="main__atmosphere--link"
-                  >@huydarealest_05</a
-                >
-              </section>
-              <!-- List -->
-              <section
-                data-aos="fade-up"
-                data-aos-duration="1150"
-                class="main__atmosphere-list"
-              >
-                <div class="row row-cols-lg-3">
-                  <div class="col">
-                    <figure class="main__atmosphere-item">
-                      <img src="./asset/img/img1-atm.png" alt="img1-atm" />
-                    </figure>
-                  </div>
-                  <div class="col">
-                    <figure class="main__atmosphere-item">
-                      <img src="./asset/img/img2-atm.jpg" alt="img2-atm" />
-                    </figure>
-                  </div>
-                  <div class="col">
-                    <figure class="main__atmosphere-item">
-                      <img src="./asset/img/img3-atm.jpg" alt="img3-atm" />
-                    </figure>
-                  </div>
-                </div>
-              </section>
-            </section>
-          </div>
-        </section>
-        <!-- Cta -->
-        <section class="cta">
-          <div class="container">
-            <section class="main__cta">
-              <!-- Info -->
-              <section
-                data-aos="fade-down"
-                data-aos-duration="1150"
-                class="main__cta--info"
-              >
-                <figure class="main__cta--img-block">
-                  <img
-                    src="./asset/img/icon-supprai.png"
-                    alt="supprai"
-                    class="main__cta--img"
-                  />
-                </figure>
-                <h2 class="main__cta--title">Got a project? Let’s talk</h2>
-                <p class="main__cta--desc">
+                <h1 class="header__main--title">An Interactive Designer</h1>
+                <p class="header__main-decs">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   urna, non nisl tincidunt ut elementum turpis.
                 </p>
                 <!-- Action -->
-                <button class="main__cta--btn btn">
-                  <span>Book a Call</span>
-                </button>
+                <div class="header__main--action">
+                  <button class="header__main-btn btn">
+                    <span>Book a Call</span>
+                  </button>
+                  <a href="#!">My Works</a>
+                </div>
+                <!-- Media -->
+                <div class="header__main--media">
+                  <span>Follow me on:</span>
+                  <figure class="header__main--media-block">
+                    <img src="./asset/img/bex-media.svg" alt="bex-media" />
+                  </figure>
+                  <figure class="header__main--media-block">
+                    <img src="./asset/img/instagram.svg" alt="instagram" />
+                  </figure>
+                  <figure class="header__main--media-block">
+                    <img
+                      src="./asset/img/basketball-media.svg"
+                      alt="basketball-media"
+                    />
+                  </figure>
+                </div>
               </section>
-              <!-- Extra cta -->
-
-              <figure
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-1"
-              >
-                <img
-                  src="./asset/img/extra-cta-1.png"
-                  alt="extra-cta-1"
-                  class="extra-cta-1"
-                />
-              </figure>
-              <figure
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-2"
-              >
-                <img
-                  src="./asset/img/extra-cta-2.png"
-                  alt="extra-cta-2"
-                  class="extra-cta-2"
-                />
-              </figure>
-              <figure
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-3"
-              >
-                <img
-                  src="./asset/img/extra-cta-3.png"
-                  alt="extra-cta-3"
-                  class="extra-cta-3"
-                />
-              </figure>
-              <figure
-                data-aos="fade-up-right"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-4"
-              >
-                <img
-                  src="./asset/img/extra-cta-4.png"
-                  alt="extra-cta-4"
-                  class="extra-cta-4"
-                />
-              </figure>
-
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-5"
-              >
-                <img
-                  src="./asset/img/extra-cta-5.png"
-                  alt="extra-cta-5"
-                  class="extra-cta-5"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-6"
-              >
-                <img
-                  src="./asset/img/extra-cta-6.png"
-                  alt="extra-cta-6"
-                  class="extra-cta-6"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-7"
-              >
-                <img
-                  src="./asset/img/extra-cta-7.png"
-                  alt="extra-cta-7"
-                  class="extra-cta-7"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-8"
-              >
-                <img
-                  src="./asset/img/extra-cta-8.png"
-                  alt="extra-cta-8"
-                  class="extra-cta-8"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-9"
-              >
-                <img
-                  src="./asset/img/extra-cta-9.png"
-                  alt="extra-cta-9"
-                  class="extra-cta-9"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-10"
-              >
-                <img
-                  src="./asset/img/extra-cta-10.png"
-                  alt="extra-cta-10"
-                  class="extra-cta-10"
-                />
-              </figure>
-              <figure
-                data-aos="fade-down-left"
-                data-aos-duration="1150"
-                class="main__cta--extra-cta-11"
-              >
-                <img
-                  src="./asset/img/extra-cta-11.png"
-                  alt="extra-cta-11"
-                  class="extra-cta-11"
-                />
-              </figure>
-            </section>
+            </div>
           </div>
         </section>
-      </main>
-      <!-- footer -->
-      <footer class="footer">
+      </div>
+    </section>
+    <main>
+      <!-- Clients PC -->
+      <section class="clients">
         <div class="container">
-          <!-- Animation footer  -->
-          <!-- footer PC -->
-          <section
-            data-aos="fade-up"
-            data-aos-duration="1150"
-            class="footer__main"
-          >
-            <!-- footer email -->
-            <div class="footer__main--email">
-              <!-- Img Email -->
-              <figure class="footer__main--img-email">
-                <img src="./asset/img/header-email.png" alt="email-heart" />
-              </figure>
-              <div class="footer__main--block-email">
-                <a href="#!" class="footer__main--link-email"
-                  >hi@arif.interactive</a
-                >
+          <section class="main__clients">
+            <!-- Title Clients -->
+            <h2
+              data-aos="fade-right"
+              data-aos-duration="1150"
+              class="main__clients--title"
+            >
+              Meet my recent clients
+            </h2>
+            <!-- Media Clients -->
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1150"
+              class="main__clients--media-block"
+            >
+              <!-- Media Top -->
+              <div class="main__clients--media-top">
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo google">
+                    <!-- Google -->
+                    <img src="./asset/img/google.png" alt="google" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Google.svg" alt="google" />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo warner-bros">
+                    <!--Warner Bos -->
+                    <img src="./asset/img/warbos.png" alt="Warner Bos" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Warner-Bros.svg" alt="Warner Bos" />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!-- Mailchimp -->
+                    <img src="./asset/img/mailchimp.png" alt="mailchimp" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Mailchimp.svg" alt="" />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!-- Adobe -->
+                    <img src="./asset/img/adobe.png" alt="Adobe" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Adobe.svg" alt="" />
+                  </figure>
+                </article>
+              </div>
+              <!-- Media Bottom -->
+              <div class="main__clients--media-bottom">
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!-- Upwork -->
+                    <img src="./asset/img/Upwork.png" alt="Upwork" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Upwork.svg" alt="Upwork" />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!--Creative Cloud -->
+                    <img
+                      src="./asset/img/creative-cloud.png"
+                      alt="Creative Cloud"
+                    />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img
+                      src="./asset/img/Creative-Cloud.svg"
+                      alt="Creative Cloud"
+                    />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!-- Mailchimp -->
+                    <img src="./asset/img/Woo.png" alt="Woocommerce" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Woocommerce.svg" alt="Woocommerce" />
+                  </figure>
+                </article>
+                <article class="main__clients--media">
+                  <figure class="main__clients--media-logo">
+                    <!-- Adobe -->
+                    <img src="./asset/img/Canva.png" alt="Canva" />
+                  </figure>
+                  <figure class="main__clients--name-media">
+                    <img src="./asset/img/Canva.svg" alt="Canva" />
+                  </figure>
+                </article>
               </div>
             </div>
-            <!-- Logo -->
-            <figure class="footer__main--logo">
-              <img src="./asset/img/logo-boy.png" alt="Logo Website" />
-            </figure>
-            <!-- Navigation -->
-            <nav class="footer__main--list">
-              <ul>
-                <li>
-                  <a href="#!">Projects</a>
-                </li>
-                <li>
-                  <a href="#!">Journey</a>
-                </li>
-                <li>
-                  <a href="#!">Service</a>
-                </li>
-                <li>
-                  <a href="#!">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </section>
-        </div>
-      </footer>
-      <!-- Copy Right -->
-      <section data-aos="fade-up" data-aos-duration="1150" class="copy-right">
-        <div class="container">
-          <section class="main__copy-right">
-            <p class="main__copy-right--decs">
-              ©huydarealest 2021. All rights reserved.
-            </p>
-            <article class="main__copy-right-support">
-              <p class="main__copy-right-support-decs">Privacy Policy</p>
-              <p class="main__copy-right-support-decs-2">Terms of Conditions</p>
-            </article>
           </section>
         </div>
       </section>
-    </div>
+      <!-- Special PC -->
+      <section class="special">
+        <div class="container">
+          <section class="main__special">
+            <!-- Special Info -->
+            <section
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__special--info"
+            >
+              <h2 class="main__special--title">Specialities</h2>
+              <p class="main__special--decs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </section>
+            <!-- Special List -->
+            <!-- Special List Mobile -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="row row-cols-lg-3 special-list"
+            >
+              <div class="col">
+                <article class="main__special--item">
+                  <!-- Special Img Item -->
+                  <figure class="main__special--item-img">
+                    <img src="./asset/img/cretive.png" alt="Product design" />
+                  </figure>
+                  <h3 class="main__special--item-title">Product design</h3>
+                  <p class="main__special--item-decs">
+                    Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                    solor ut elementum turpis.
+                  </p>
+                </article>
+              </div>
+              <div class="col">
+                <article class="main__special--item">
+                  <!-- Special Img Item -->
+                  <figure class="main__special--item-img pencil">
+                    <img src="./asset/img/pencil.png" alt="UI/UX Design" />
+                    <!-- Ruller -->
+                    <figure class="main__special--extra-img">
+                      <img src="./asset/img/ruller.png" alt="UI/UX Design" />
+                    </figure>
+                  </figure>
+                  <h3 class="main__special--item-title">UI/UX Design</h3>
+                  <p class="main__special--item-decs">
+                    Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                    solor ut elementum turpis.
+                  </p>
+                </article>
+              </div>
+              <div class="col">
+                <article class="main__special--item">
+                  <!-- Special Img Item -->
+                  <figure class="main__special--item-img">
+                    <img src="./asset/img/phone.png" alt="Interactive design" />
+                  </figure>
+                  <h3 class="main__special--item-title">Interactive design</h3>
+                  <p class="main__special--item-decs">
+                    Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl
+                    solor ut elementum turpis.
+                  </p>
+                </article>
+              </div>
+            </div>
+            <!-- Special Choice list -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__choice main__choice-special"
+            >
+              <span class="main__dot"></span>
+              <span class="main__dot dot__hight-light"></span>
+              <span class="main__dot"></span>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Project -->
+      <section class="project">
+        <div class="container">
+          <section class="main__project">
+            <!-- Project Title -->
+            <div class="row">
+              <div class="col-lg-5 col-12">
+                <h2
+                  data-aos="fade-right"
+                  data-aos-duration="1150"
+                  class="main__project--title"
+                >
+                  Take a look at my recent projects
+                </h2>
+              </div>
+              <div class="col-lg-4 offset-lg-1   col-12">
+                <p
+                  data-aos="fade-left"
+                  data-aos-duration="1150"
+                  class="main__project--decs"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                  urna, non nisl tincidunt ut elementum turpis.
+                </p>
+              </div>
+            </div>
+            <!-- Project List Item -->
+            <section
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__project--list-item"
+            >
+              <div class="row row-cols-lg-2 cols-12">
+                <div class="col main__project--item-main">
+                  <article class="main__project--item">
+                    <section class="main__project-item-cover">
+                      <!-- Info Item -->
+                      <section class="main__project--item-info">
+                        <h3 class="main__project--item-title">Wally Website</h3>
+                        <p class="main__project--item-decs">
+                          Lorem ipsum dolor amet, consectetur adipiscing st
+                          elit.
+                        </p>
+                        <a href="#!" class="main__project--item-link"
+                          >Case Study</a
+                        >
+                      </section>
+                      <!--  Item Img-->
+                      <figure class="main__project--item-img-block">
+                        <img
+                          src="./asset/img/project-item-1.png"
+                          alt="project-item-1"
+                          class="main__project--item-img"
+                        />
+                        <!-- Extra Img -->
+                       <div class="main__project--item-img-extra">
+                         <figure class="main__project--extra-img-1">
+                          <img
+                            src="./asset/img/extra-project-1.png"
+                            alt="extra-project-1"
+                            class="main__project--extra-1"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-2">
+                          <img
+                            src="./asset/img/extra-project-2.png"
+                            alt="extra-project-2"
+                            class="main__project--extra-2"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-3">
+                          <img
+                            src="./asset/img/extra-project-3.png"
+                            alt="extra-project-3"
+                            class="main__project--extra-3"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-4">
+                          <img
+                            src="./asset/img/extra-project-4.png"
+                            alt="extra-project-4"
+                            class="main__project--extra-4"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-5">
+                          <img
+                            src="./asset/img/extra-project-5.png"
+                            alt="extra-project-5"
+                            class="main__project--extra-5"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-6">
+                          <img
+                            src="./asset/img/extra-project-6.png"
+                            alt="extra-project-6"
+                            class="main__project--extra-6"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-7">
+                          <img
+                            src="./asset/img/extra-project-7.png"
+                            alt="extra-project-7"
+                            class="main__project--extra-7"
+                          />
+                        </figure>
+                       </div>
+                      </figure>
+                    </section>
+                  </article>
+                </div>
+                <div class="col main__project--item-main">
+                  <article class="main__project--item">
+                    <section class="main__project-item-cover">
+                      <!-- Info Item -->
+                      <section class="main__project--item-info">
+                        <h3 class="main__project--item-title">Banking App</h3>
+                        <p class="main__project--item-decs">
+                          Lorem ipsum dolor amet, consectetur adipiscing st
+                          elit.
+                        </p>
+                        <a href="#!" class="main__project--item-link"
+                          >Case Study</a
+                        >
+                      </section>
+                      <!--  Item Img-->
+                      <figure class="main__project--item-img-block">
+                        <img
+                          src="./asset/img/project-item-4.png"
+                          alt="project-item-1"
+                          class="main__project--item-img"
+                        />
+                      <!-- Extra Img PC -->
+                       <div class="main__project--item-img-extra">
+                         <figure class="main__project--extra-img-1">
+                          <img
+                            src="./asset/img/extra-project-1.png"
+                            alt="extra-project-1"
+                            class="main__project--extra-1"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-2">
+                          <img
+                            src="./asset/img/extra-project-2.png"
+                            alt="extra-project-2"
+                            class="main__project--extra-2"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-3">
+                          <img
+                            src="./asset/img/extra-project-3.png"
+                            alt="extra-project-3"
+                            class="main__project--extra-3"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-4">
+                          <img
+                            src="./asset/img/extra-project-4.png"
+                            alt="extra-project-4"
+                            class="main__project--extra-4"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-5">
+                          <img
+                            src="./asset/img/extra-project-5.png"
+                            alt="extra-project-5"
+                            class="main__project--extra-5"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-6">
+                          <img
+                            src="./asset/img/extra-project-6.png"
+                            alt="extra-project-6"
+                            class="main__project--extra-6"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-7">
+                          <img
+                            src="./asset/img/extra-project-7.png"
+                            alt="extra-project-7"
+                            class="main__project--extra-7"
+                          />
+                        </figure>
+                       </div>
+                      </figure>
+                    </section>
+                  </article>
+                </div>
+                <div class="col main__project--item-main">
+                  <article class="main__project--item">
+                    <section class="main__project-item-cover">
+                      <!-- Info Item -->
+                      <section class="main__project--item-info">
+                        <h3 class="main__project--item-title">Web App</h3>
+                        <p class="main__project--item-decs">
+                          Lorem ipsum dolor amet, consectetur adipiscing st
+                          elit.
+                        </p>
+                        <a href="#!" class="main__project--item-link"
+                          >Case Study</a
+                        >
+                      </section>
+                      <!--  Item Img-->
+                      <figure class="main__project--item-img-block">
+                        <img
+                          src="./asset/img/project-item-3.png"
+                          alt="project-item-1"
+                          class="main__project--item-img"
+                        />
+                         <!-- Extra Img -->
+                       <div class="main__project--item-img-extra">
+                         <figure class="main__project--extra-img-1">
+                          <img
+                            src="./asset/img/extra-project-1.png"
+                            alt="extra-project-1"
+                            class="main__project--extra-1"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-2">
+                          <img
+                            src="./asset/img/extra-project-2.png"
+                            alt="extra-project-2"
+                            class="main__project--extra-2"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-3">
+                          <img
+                            src="./asset/img/extra-project-3.png"
+                            alt="extra-project-3"
+                            class="main__project--extra-3"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-4">
+                          <img
+                            src="./asset/img/extra-project-4.png"
+                            alt="extra-project-4"
+                            class="main__project--extra-4"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-5">
+                          <img
+                            src="./asset/img/extra-project-5.png"
+                            alt="extra-project-5"
+                            class="main__project--extra-5"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-6">
+                          <img
+                            src="./asset/img/extra-project-6.png"
+                            alt="extra-project-6"
+                            class="main__project--extra-6"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-7">
+                          <img
+                            src="./asset/img/extra-project-7.png"
+                            alt="extra-project-7"
+                            class="main__project--extra-7"
+                          />
+                        </figure>
+                       </div>
+                      </figure>
+                    </section>
+                  </article>
+                </div>
+                <div class="col main__project--item-main">
+                  <article class="main__project--item">
+                    <section class="main__project-item-cover">
+                      <!-- Info Item -->
+                      <section class="main__project--item-info">
+                        <h3 class="main__project--item-title">
+                          Oculus Website
+                        </h3>
+                        <p class="main__project--item-decs">
+                          Lorem ipsum dolor amet, consectetur adipiscing st
+                          elit.
+                        </p>
+                        <a href="#!" class="main__project--item-link"
+                          >Case Study</a
+                        >
+                      </section>
+                      <!--  Item Img-->
+                      <figure class="main__project--item-img-block">
+                        <img
+                          src="./asset/img/project-item-2.png"
+                          alt="project-item-1"
+                          class="main__project--item-img"
+                        />
+                         <!-- Extra Img -->
+                       <div class="main__project--item-img-extra">
+                         <figure class="main__project--extra-img-1">
+                          <img
+                            src="./asset/img/extra-project-1.png"
+                            alt="extra-project-1"
+                            class="main__project--extra-1"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-2">
+                          <img
+                            src="./asset/img/extra-project-2.png"
+                            alt="extra-project-2"
+                            class="main__project--extra-2"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-3">
+                          <img
+                            src="./asset/img/extra-project-3.png"
+                            alt="extra-project-3"
+                            class="main__project--extra-3"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-4">
+                          <img
+                            src="./asset/img/extra-project-4.png"
+                            alt="extra-project-4"
+                            class="main__project--extra-4"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-5">
+                          <img
+                            src="./asset/img/extra-project-5.png"
+                            alt="extra-project-5"
+                            class="main__project--extra-5"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-6">
+                          <img
+                            src="./asset/img/extra-project-6.png"
+                            alt="extra-project-6"
+                            class="main__project--extra-6"
+                          />
+                        </figure>
+                        <figure class="main__project--extra-img-7">
+                          <img
+                            src="./asset/img/extra-project-7.png"
+                            alt="extra-project-7"
+                            class="main__project--extra-7"
+                          />
+                        </figure>
+                       </div>
+                      </figure>
+                    </section>
+                  </article>
+                </div>
+              </div>
+            </section>
+            <!-- Project Action -->
+            <button
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__project--action btn"
+            >
+              <span>All Projects</span>
+            </button>
+          </section>
+        </div>
+      </section>
+      <!-- Interactive -->
+      <section class="interactive">
+        <div class="container">
+          <section class="main__interactive">
+            <!-- Interactive Info -->
+            <div
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__interactive--info"
+            >
+              <article class="main__interactive--span-block">
+                <span class="main__interactive--span">Hey,,,,It’s Arif</span>
+                <figure class="main__interactive--img">
+                  <img src="./asset/img/icon-hello.png" alt="icon-hello" />
+                </figure>
+              </article>
+              <h2 class="main__interactive--title">Interactive Designer</h2>
+              <p class="main__interactive--desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+            </div>
+            <!-- Interactive Rating -->
+            <section
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__interactive--rating"
+            >
+              <article class="main__interactive--rating-item">
+                <p class="main__interactive--rating-desc">08+</p>
+                <span class="main__interactive--rating-span"
+                  >Years Experience</span
+                >
+              </article>
+              <article class="main__interactive--rating-item">
+                <p class="main__interactive--rating-desc">21+</p>
+                <span class="main__interactive--rating-span"
+                  >Features & Awards</span
+                >
+              </article>
+              <article class="main__interactive--rating-item">
+                <p class="main__interactive--rating-desc">97%</p>
+                <span class="main__interactive--rating-span"
+                  >Clients Rating</span
+                >
+              </article>
+              <!-- Interactive Img -->
+              <section class="main__interactive--rating-background-img">
+                <figure class="main__interactive-rating-img">
+                  <img
+                    class="main__interactive--rating-img-main"
+                    src="./asset/img/video-interactive.png"
+                    alt="video-interactive"
+                  />
+                  <!-- Extra img rating -->
+                  <figure class="main__interactive--rating-extra">
+                    <img
+                      class="main__interactive--rating-img-extra"
+                      src="./asset/img/btn-video-interactive.png"
+                      alt="btn-video-interactive"
+                    />
+                  </figure>
+                  <!-- Extra block -->
+                  <div class="main__interactive--extra-block">
+                    <span>Intro Video</span>
+                  </div>
+                </figure>
+              </section>
+            </section>
+
+            <!-- Interactive People Say -->
+            <section class="main__interactive--feedback"></section>
+          </section>
+        </div>
+      </section>
+      <!-- Feedback -->
+      <section class="feedback">
+        <div class="container">
+          <section class="main__feedback">
+            <h2
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__feedback--title"
+            >
+              What people says
+            </h2>
+            <p
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__feedback--desc"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <!-- Feedback People List -->
+            <article
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__feedback--people-group"
+            >
+              <p class="main__feedback--people">
+                “Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa.”
+              </p>
+              <!-- Name And Avatar -->
+              <div class="main__feedback--user">
+                <figure class="main__feedback--avatar">
+                  <img src="./asset/img/faq.png" alt="Avatar User" />
+                </figure>
+                <span class="main__feedback--people-name">Joe Elia</span>
+              </div>
+              <!-- Work People -->
+              <span class="main__feedback--work-people">
+                User Interface Design at PCL Lab
+              </span>
+            </article>
+            <!-- Feedback Choice -->
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__choice"
+            >
+              <span class="main__dot "></span>
+              <span class="main__dot "></span>
+              <span class="main__dot  dot__hight-light "></span>
+              <span class="main__dot "></span>
+              <span class="main__dot "></span>
+            </div>
+            <!-- Extra Feedback -->
+            <div
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="feedback--extra"
+            >
+              <figure class="feedback--extra-1">
+                <img
+                  src="./asset/img/extra-feedback1.png"
+                  alt="extra-feedback1"
+                />
+              </figure>
+              <figure class="feedback--extra-2">
+                <img
+                  src="./asset/img/extra-feedback2.png"
+                  alt="extra-feedback2"
+                />
+              </figure>
+              <figure class="feedback--extra-3">
+                <img
+                  src="./asset/img/extra-feedback3.png"
+                  alt="extra-feedback3"
+                />
+              </figure>
+              <figure class="feedback--extra-4">
+                <img
+                  src="./asset/img/extra-feedback4.png"
+                  alt="extra-feedback4"
+                />
+              </figure>
+            </div>
+            <!-- Extra feedback-2 -->
+            <div
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="feedback--extra-two"
+            >
+              <figure class="feedback--extra-2-1">
+                <img
+                  src="./asset/img/extra-feedback1.png"
+                  alt="extra-feedback1"
+                />
+              </figure>
+              <figure class="feedback--extra-2-3">
+                <img
+                  src="./asset/img/extra-feedback3.png"
+                  alt="extra-feedback3"
+                />
+              </figure>
+              <figure class="feedback--extra-2-4">
+                <img src="./asset/img/extra-right.png" alt="extra-feedback4" />
+              </figure>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Question -->
+      <section class="question">
+        <div class="container">
+          <section
+            data-aos="fade-right"
+            data-aos-duration="1150"
+            class="main__question"
+          >
+            <h2 class="main__question--title">
+              A few questions <br />
+              clients normally ask me
+            </h2>
+            <!-- Question List -->
+            <section class="main__question--list">
+              <!-- Input Group -->
+              <section class="main__question--input-gr">
+                <input
+                  class="main__question--input-checked"
+                  type="checkbox"
+                  name="check"
+                  id="active"
+                />
+                <section class="main__question--item">
+                  <!-- Item Info -->
+
+                  <section class="main__question--item-info">
+                    <!-- Question Title Item -->
+                    <h3 class="main__question--item-title">
+                      What is your hourly rate?
+                    </h3>
+
+                    <!-- Question Desc -->
+                    <p class="main__question--item-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In urna, non nisl tincidunt ut elementum turpis.
+                    </p>
+                  </section>
+                  <!-- Item Active -->
+
+                  <label for="active" class="main__question--item-active">
+                    <span class="main__question--active-child-plus">+</span>
+                    <span class="main__question--active-child-minus">-</span>
+                  </label>
+                </section>
+              </section>
+              <section class="main__question--input-gr">
+                <input
+                  class="main__question--input-checked"
+                  type="checkbox"
+                  name="rate"
+                  id="active-2"
+                />
+                <section class="main__question--item">
+                  <!-- Item Info -->
+
+                  <section class="main__question--item-info">
+                    <!-- Question Title Item -->
+                    <h3 class="main__question--item-title">
+                      What type of projects do you take on?
+                    </h3>
+
+                    <!-- Question Desc -->
+                    <p class="main__question--item-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In urna, non nisl tincidunt ut elementum turpis.
+                    </p>
+                  </section>
+                  <!-- Item Active -->
+
+                  <label for="active-2" class="main__question--item-active">
+                    <span class="main__question--active-child-plus">+</span>
+                    <span class="main__question--active-child-minus">-</span>
+                  </label>
+                </section>
+              </section>
+              <section class="main__question--input-gr">
+                <input
+                  class="main__question--input-checked"
+                  type="checkbox"
+                  name="rate"
+                  id="active-3"
+                />
+                <section class="main__question--item">
+                  <!-- Item Info -->
+
+                  <section class="main__question--item-info">
+                    <!-- Question Title Item -->
+                    <h3 class="main__question--item-title">
+                      How do you charge for projects ?
+                    </h3>
+
+                    <!-- Question Desc -->
+                    <p class="main__question--item-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In urna, non nisl tincidunt ut elementum turpis.
+                    </p>
+                  </section>
+                  <!-- Item Active -->
+
+                  <label for="active-3" class="main__question--item-active">
+                    <span class="main__question--active-child-plus">+</span>
+                    <span class="main__question--active-child-minus">-</span>
+                  </label>
+                </section>
+              </section>
+              <section class="main__question--input-gr">
+                <input
+                  class="main__question--input-checked"
+                  type="checkbox"
+                  name="rate"
+                  id="active-4"
+                />
+                <section class="main__question--item">
+                  <!-- Item Info -->
+
+                  <section class="main__question--item-info">
+                    <!-- Question Title Item -->
+                    <h3 class="main__question--item-title">
+                      What time-zone do you work in?
+                    </h3>
+
+                    <!-- Question Desc -->
+                    <p class="main__question--item-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In urna, non nisl tincidunt ut elementum turpis.
+                    </p>
+                  </section>
+                  <!-- Item Active -->
+
+                  <label for="active-4" class="main__question--item-active">
+                    <span class="main__question--active-child-plus">+</span>
+                    <span class="main__question--active-child-minus">-</span>
+                  </label>
+                </section>
+              </section>
+              <section class="main__question--input-gr">
+                <input
+                  class="main__question--input-checked"
+                  type="checkbox"
+                  name="rate"
+                  id="active-5"
+                />
+                <section class="main__question--item">
+                  <!-- Item Info -->
+
+                  <section class="main__question--item-info">
+                    <!-- Question Title Item -->
+                    <h3 class="main__question--item-title">
+                      How often can we communicate?
+                    </h3>
+
+                    <!-- Question Desc -->
+                    <p class="main__question--item-desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      In urna, non nisl tincidunt ut elementum turpis.
+                    </p>
+                  </section>
+                  <!-- Item Active -->
+
+                  <label for="active-5" class="main__question--item-active">
+                    <span class="main__question--active-child-plus">+</span>
+                    <span class="main__question--active-child-minus">-</span>
+                  </label>
+                </section>
+              </section>
+            </section>
+          </section>
+        </div>
+      </section>
+      <!--Atmosphere   -->
+      <section class="atmosphere">
+        <div class="container">
+          <section class="main__atmosphere">
+            <!-- Info  -->
+            <section
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__atmosphere--info"
+            >
+              <h2 class="main__atmosphere--title">My atmosphere</h2>
+              <p class="main__atmosphere--decs">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+              <a
+                data="@huydarealest_05"
+                href="https://www.instagram.com/huydarealest/"
+                class="main__atmosphere--link"
+                >@huydarealest_05</a
+              >
+            </section>
+            <!-- List -->
+            <section
+              data-aos="fade-up"
+              data-aos-duration="1150"
+              class="main__atmosphere-list"
+            >
+              <div class="row row-cols-lg-3">
+                <div class="col">
+                  <figure class="main__atmosphere-item">
+                    <img src="./asset/img/img1-atm.png" alt="img1-atm" />
+                  </figure>
+                </div>
+                <div class="col">
+                  <figure class="main__atmosphere-item">
+                    <img src="./asset/img/img2-atm.jpg" alt="img2-atm" />
+                  </figure>
+                </div>
+                <div class="col">
+                  <figure class="main__atmosphere-item">
+                    <img src="./asset/img/img3-atm.jpg" alt="img3-atm" />
+                  </figure>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+      <!-- Cta -->
+      <section class="cta">
+        <div class="container">
+          <section class="main__cta">
+            <!-- Info -->
+            <section
+              data-aos="fade-down"
+              data-aos-duration="1150"
+              class="main__cta--info"
+            >
+              <figure class="main__cta--img-block">
+                <img
+                  src="./asset/img/icon-supprai.png"
+                  alt="supprai"
+                  class="main__cta--img"
+                />
+              </figure>
+              <h2 class="main__cta--title">Got a project? Let’s talk</h2>
+              <p class="main__cta--desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                urna, non nisl tincidunt ut elementum turpis.
+              </p>
+              <!-- Action -->
+              <button class="main__cta--btn btn">
+                <span>Book a Call</span>
+              </button>
+            </section>
+            <!-- Extra cta -->
+
+            <figure
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-1"
+            >
+              <img
+                src="./asset/img/extra-cta-1.png"
+                alt="extra-cta-1"
+                class="extra-cta-1"
+              />
+            </figure>
+            <figure
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-2"
+            >
+              <img
+                src="./asset/img/extra-cta-2.png"
+                alt="extra-cta-2"
+                class="extra-cta-2"
+              />
+            </figure>
+            <figure
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-3"
+            >
+              <img
+                src="./asset/img/extra-cta-3.png"
+                alt="extra-cta-3"
+                class="extra-cta-3"
+              />
+            </figure>
+            <figure
+              data-aos="fade-up-right"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-4"
+            >
+              <img
+                src="./asset/img/extra-cta-4.png"
+                alt="extra-cta-4"
+                class="extra-cta-4"
+              />
+            </figure>
+
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-5"
+            >
+              <img
+                src="./asset/img/extra-cta-5.png"
+                alt="extra-cta-5"
+                class="extra-cta-5"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-6"
+            >
+              <img
+                src="./asset/img/extra-cta-6.png"
+                alt="extra-cta-6"
+                class="extra-cta-6"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-7"
+            >
+              <img
+                src="./asset/img/extra-cta-7.png"
+                alt="extra-cta-7"
+                class="extra-cta-7"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-8"
+            >
+              <img
+                src="./asset/img/extra-cta-8.png"
+                alt="extra-cta-8"
+                class="extra-cta-8"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-9"
+            >
+              <img
+                src="./asset/img/extra-cta-9.png"
+                alt="extra-cta-9"
+                class="extra-cta-9"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-10"
+            >
+              <img
+                src="./asset/img/extra-cta-10.png"
+                alt="extra-cta-10"
+                class="extra-cta-10"
+              />
+            </figure>
+            <figure
+              data-aos="fade-down-left"
+              data-aos-duration="1150"
+              class="main__cta--extra-cta-11"
+            >
+              <img
+                src="./asset/img/extra-cta-11.png"
+                alt="extra-cta-11"
+                class="extra-cta-11"
+              />
+            </figure>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <!-- Animation footer  -->
+        <!-- footer PC -->
+        <section
+          data-aos="fade-up"
+          data-aos-duration="1150"
+          class="footer__main"
+        >
+          <!-- footer email -->
+          <div class="footer__main--email">
+            <!-- Img Email -->
+            <figure class="footer__main--img-email">
+              <img src="./asset/img/header-email.png" alt="email-heart" />
+            </figure>
+            <div class="footer__main--block-email">
+              <a href="#!" class="footer__main--link-email"
+                >hi@arif.interactive</a
+              >
+            </div>
+          </div>
+          <!-- Logo -->
+          <figure class="footer__main--logo">
+            <img src="./asset/img/logo-boy.png" alt="Logo Website" />
+          </figure>
+          <!-- Navigation -->
+          <nav class="footer__main--list">
+            <ul>
+              <li>
+                <a href="#!">Projects</a>
+              </li>
+              <li>
+                <a href="#!">Journey</a>
+              </li>
+              <li>
+                <a href="#!">Service</a>
+              </li>
+              <li>
+                <a href="#!">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </footer>
+    <!-- Copy Right -->
+    <section data-aos="fade-up" data-aos-duration="1150" class="copy-right">
+      <div class="container">
+        <section class="main__copy-right">
+          <p class="main__copy-right--decs">
+            ©huydarealest 2021. All rights reserved.
+          </p>
+          <article class="main__copy-right-support">
+            <p class="main__copy-right-support-decs">Privacy Policy</p>
+            <p class="main__copy-right-support-decs-2">Terms of Conditions</p>
+          </article>
+        </section>
+      </div>
+    </section>
+
     <!-- Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
